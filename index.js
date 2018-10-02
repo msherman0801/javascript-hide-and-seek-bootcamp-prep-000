@@ -22,6 +22,10 @@ for(var i = 0; i<a.length; i++) {
 }
 
 function deepestChild() {
-  var a = document.getElementById('grand-node').querySelector('div div div div div');
-  return a;
+  var a = document.querySelector('#grand-node').querySelectorAll('div');
+  for (var i = 0; i < a.length; i++) {
+    var el = a[i+1];
+    if (el === undefined)
+    return a[i];
+  }
 }
