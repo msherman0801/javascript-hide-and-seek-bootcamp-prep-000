@@ -23,7 +23,6 @@ for(var i = 0; i<a.length; i++) {
 
 function deepestChild() {
   var a = document.querySelector('#grand-node').querySelectorAll('div');
-  var i = 0;
   for (var i = 0; i < a.length; i++) {
     var el = a[i+1];
     if (el === undefined)
