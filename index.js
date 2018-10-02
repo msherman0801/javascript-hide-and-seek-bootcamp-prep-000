@@ -26,6 +26,6 @@ function deepestChild() {
   for (var i = 0; i < a.length; i++) {
     var el = a[i] + 1
     if (el + 1 === undefined)
-    return a[i];
+    return a[i].innerHTML;
   }
 }
