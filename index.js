@@ -10,15 +10,7 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  var div = 'div';
-  var newDiv = ' div';
-  var b = parseInt(document.getElementById('test').querySelector(div).innerHTML)
-  
-  while(b === isNaN) {
-    div += newDiv
-  }
-
-  return b + n;
+  var rankedLists = document.querySelector('.ranked-list');
 }
 
 function deepestChild() {
