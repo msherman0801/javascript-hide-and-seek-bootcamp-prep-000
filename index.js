@@ -24,8 +24,7 @@ for(var i = 0; i<a.length; i++) {
 function deepestChild() {
   var a = document.querySelectorAll('grand-node');
   for (var i = 0; i < a.length; i++) {
-    var el = a[i] + 1;
-    if (el === undefined)
+    if (a[i] + 1 === undefined)
     return a[i];
   }
 }
